@@ -1,0 +1,19 @@
+{
+  "name": "model-grants",
+  "description": "model-grants",
+  "version": "0.0.0",
+  "author": {
+    "name": "serandives",
+    "email": "serandives@gmail.com"
+  },
+  "dependencies": {
+    "mongoose": "5.1.8",
+    "logger": "serandules/logger#master",
+    "mongins": "serandules/mongins#master",
+    "validators": "serandules/validators#master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/serandules/model-grants.git"
+  }
+}
