@@ -24,6 +24,7 @@ schema.plugin(mongins.permissions());
 schema.plugin(mongins.visibility());
 schema.plugin(mongins.createdAt());
 schema.plugin(mongins.updatedAt());
+schema.plugin(mongins.modifiedAt());
 
 model.ensureIndexes(schema, [
     {user: 1, client: 1}
