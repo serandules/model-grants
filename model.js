@@ -19,7 +19,7 @@ var schema = Schema({
 }, {collection: 'grants'});
 
 schema.plugin(mongins());
-schema.plugin(mongins.user);
+schema.plugin(mongins.user());
 schema.plugin(mongins.permissions());
 schema.plugin(mongins.visibility());
 schema.plugin(mongins.createdAt());
